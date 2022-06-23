@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>PRUEBA RESPONSIVE</title>
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 </head>
@@ -43,7 +44,7 @@
     </aside>
 
     <footer class="Footer">
-        <div class="FooterContainer">
+        <div data-aos="zoom-in" class="FooterContainer">
             <div class="FooterContainerContenido">
                 <h3 class="LogoPagina">Rava Army</h3>
                 <span class="FooterInfo">+54 3543514092</span>
@@ -81,5 +82,9 @@
             <span class="Copyright">&copy;2022, Rava Army.com</span>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
